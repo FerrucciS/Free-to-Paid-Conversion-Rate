@@ -1,7 +1,10 @@
-![image](Images/365datascience.png)
+![image2](Images/subscribe.jpg)
+
 # Free-To-Paid Conversion Rate
 
 ## Introduction
+![image](Images/365datascience.png)
+
 
 As a starting point to applying and honing my skills in data analysis I have decided to undertake the project ["Calculating Free-to-Paid Conversion Rate with SQL Project"](https://365datascience.com/projects/calculating-free-to-paid-conversion-rate-with-sql/) provided by [365datascience](https://learn.365datascience.com).
 
@@ -70,15 +73,20 @@ A connection to SQL is achieved using the sqlalchemy package in python allowing 
 - Mean: 3.4.
 - Median: 0.
 
-Explanation, Graphs. We did Median (Average) in SQL.
+The mean was obtained earlier as: average time (days) between registration and watching a video. 
+
+Explanation. We did Median (Average) in SQL.
+
+![plot1](Images/date_diff_reg_watch.png)
 
 ### date_diff_watch_purch
 - Mode: 0.
 - Mean: 26.2.
 - Median: 1.
 
-Explanation, Graphs. We did Median (Average) in SQL.
+Explanation. We did Median (Average) in SQL.
 
+![plot2](Images/date_diff_watch_purch.png)
 
 
 ### Tableau
