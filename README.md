@@ -8,15 +8,12 @@
 
 As a starting point to applying and honing my skills in data analysis I have decided to undertake the project ["Calculating Free-to-Paid Conversion Rate with SQL Project"](https://365datascience.com/projects/calculating-free-to-paid-conversion-rate-with-sql/) provided by [365datascience](https://learn.365datascience.com).
 
-*In addition to the requirements of the project I further explored the data in tableau to provide a nice representation of...........
-I could also consider looking at the highest months of registering, perhaps pointing to student holidays and suggesting when to offer more discounts on subscriptions.*
 
 
 
 This is a demonstration of utilising tools such as:
 - SQL
 - Python
-- Tableau
 
 ## Problem Statement
 
@@ -25,8 +22,6 @@ The questions posed by 365datascience are:
 - What is the average time (days) between a student registering to the website and watching their first educational video.
 - What is the average time (days) between a student watching their first video and purchasing a subscription.
 
-I also posed the additional questions of:
-- How many students who register to the website watch an educational video on the site?
 
 
 ## Data Source
@@ -73,9 +68,7 @@ A connection to SQL is achieved using the sqlalchemy package in python allowing 
 - Mean: 3.4.
 - Median: 0.
 
-The mean was obtained earlier as: average time (days) between registration and watching a video. 
 
-Explanation. We did Median (Average) in SQL.
 
 ![plot1](Images/date_diff_reg_watch.png)
 
@@ -84,12 +77,11 @@ Explanation. We did Median (Average) in SQL.
 - Mean: 26.2.
 - Median: 1.
 
-Explanation. We did Median (Average) in SQL.
+
 
 ![plot2](Images/date_diff_watch_purch.png)
 
 
-### Tableau
 
 
 ## Conclusion
