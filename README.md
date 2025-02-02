@@ -6,9 +6,8 @@
 ![image](Images/365datascience.png)
 
 
-As a starting point to applying and honing my skills in data analysis I have decided to undertake the project ["Calculating Free-to-Paid Conversion Rate with SQL Project"](https://365datascience.com/projects/calculating-free-to-paid-conversion-rate-with-sql/) provided by [365datascience](https://learn.365datascience.com).
 
-
+ [365datascience](https://learn.365datascience.com) is an online platform with 3M+ students that provides data science, machine learning, and AI training. This [project](https://365datascience.com/projects/calculating-free-to-paid-conversion-rate-with-sql/)  consists of looking at the free-to-paid conversion rate for the marketing and sales team to analyse the effectiveness of marketing campaigns leading new visitors to the website and purchasing subscriptions.
 
 
 This is a demonstration of utilising tools such as:
@@ -70,7 +69,10 @@ A connection to SQL is achieved using the sqlalchemy package in python allowing 
 
 
 
+
 ![plot1](Images/date_diff_reg_watch.png)
+
+While the mean days between registering and watching a video is approximately 3, we can observe the from the plot above we have a right-skewed distribution. The median in this case is more informative and tells us the central tendency is 0 days between registering to the website and watching a lecture. However, the most frequent number of days (mode) is 0. So most people watch a lecture the same day as registering to the 365datascience website. 
 
 ### date_diff_watch_purch
 - Mode: 0.
@@ -81,7 +83,9 @@ A connection to SQL is achieved using the sqlalchemy package in python allowing 
 
 ![plot2](Images/date_diff_watch_purch.png)
 
+Similar to the previous plot, the days between watching a lecture and signing up for a subscription is a right-skewed distribution with most audiences purchasing a subscription the same day as watching a lecture. While the mean is 26 days, it is sensitive to outliers and the median is more informative telling us the typical the number of days is actually 1 day. 
 
 
 
-## Conclusion
+
+
