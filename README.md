@@ -30,7 +30,20 @@ The data is an excerpt from 365datascience's own data, stripped of personally id
 
 ## Data Transformation
 
-The database consists of three table: student info, student engagement and student purchases. An SQL subquery joins the relevant data as shown in the venn diagram. Furthemore two additional columns are added consisting of 
+The database consists of three table: 
+1. student info - containing student id and registration date.
+2. student engagement - keeps a record of dates students watched lectures.
+3. student purchases - contains data of subscription purchases such as purchase id, student id, and purchase date.
+
+![image0](Images/erd.png)
+
+
+
+
+
+
+
+An SQL subquery joins the relevant data as shown in the venn diagram. Furthemore two additional columns are added consisting of 
 1. Days between registration and first watched video - (date_diff_reg_watch).
 2. Days between first watched video and subscription purchase - (date_diff_watch_purch).
 
